@@ -943,7 +943,7 @@ def test_rbm_mnist(learning_rate=0.01, training_epochs=10, batch_size=20,
 if __name__ == '__main__':
     test_rbm_mnist(output_folder='/home/eric/Desktop/rbm_plots',
                    learning_rate=0.01, training_epochs=100, batch_size=20,
-                   n_hidden=5000, isPCD=0)
+                   n_hidden=100, isPCD=0)
 
     # /home/eric/Desktop/rbm_plots
     # toy_test(output_folder='/Volumes/HDD750/home/TEMP/prbm_plots',
